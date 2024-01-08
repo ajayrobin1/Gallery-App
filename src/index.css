@@ -1,0 +1,25 @@
+a{
+    text-decoration: none !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.hideScroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.hideScroll {
+  -ms-overflow-style: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .MuiImageList-root {
+      column-count: 3 !important;
+    }
+  }
